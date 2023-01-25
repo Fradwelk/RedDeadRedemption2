@@ -1,0 +1,79 @@
+.navbar{
+	text-decoration:none;
+	color:white;
+	margin-right:30px;
+	background-color: black;
+	font-family: Bold Italic;
+	text-shadow: 0.9px 0.9px black;
+	font-size: 17px;
+	width: 100%;
+}
+nav{
+	overflow: hidden;
+	text-align: center;
+	font-size: 10;
+	background-color: black;
+	width: 100%;
+	margin-bottom: 0 !important;
+border: 0 !important;
+}
+*{
+	font-family: "Times New Roman";
+	text-align: center;
+	color: white;
+	text-shadow:0.8px 0.8px darkred;
+}
+header h1{
+	font-family: "Times New Roman";
+	font-size: 50px;
+}
+header h3{
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+header{
+	text-align: center;
+	padding: 10px;
+}
+img{
+	border: 3px solid black;
+}
+img:hover{
+	transform: scale(1.2);
+	transition:0.9s;
+}
+	
+hr{
+    height: 5px;
+    background-color: black;
+	border: none;
+}
+header h2{
+	font-family: "Garamond";
+	font-size: 25px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.smallpic{
+	border: 3px solid white;
+	float: right;
+}
+body {
+  background-image: url('https://images7.alphacoders.com/749/thumb-1920-749807.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}	
+.navbar:hover{
+	color: red;
+	text-decoration: bold;
+	transition: 0.3s;
+}
+footer{
+	text-align: center;
+	padding: 3px;
+	background-color: black;
+	color: white;
+	text-align: left;
+}
